@@ -6,6 +6,10 @@ import main.java.br.com.avaliacao.questao5.documentos.PrototypeRegistry;
 import main.java.br.com.avaliacao.questao5.documentos.ReportTemplate;
 import main.java.br.com.avaliacao.questao5.documentos.ResumeTemplate;
 
+/**
+ * Classe principal da Questão 5.
+ * Demonstra o uso dos padrões Prototype e Singleton.
+ */
 public class AppQuestao5 {
 
     public static void main(String[] args) {

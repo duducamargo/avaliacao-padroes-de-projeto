@@ -3,6 +3,11 @@ package main.java.br.com.avaliacao.questao3.noticias;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Representa um tópico (Subject) — ex: Política, Esportes, Tecnologia.
+ * Notifica automaticamente os leitores inscritos quando uma nova notícia é
+ * publicada.
+ */
 public class Topico implements Subject {
 
     private final String nome;

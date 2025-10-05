@@ -1,5 +1,8 @@
 package main.java.br.com.avaliacao.questao4.relatorios;
 
+/**
+ * Adiciona informações gráficas simuladas ao relatório.
+ */
 public class ChartDecorator extends ReportDecorator {
 
     public ChartDecorator(Report decoratedReport) {

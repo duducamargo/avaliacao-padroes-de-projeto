@@ -6,6 +6,9 @@ import java.util.Map;
 import main.java.br.com.avaliacao.questao3.noticias.Noticia;
 import main.java.br.com.avaliacao.questao3.noticias.Topico;
 
+/**
+ * Singleton que centraliza todos os tópicos e publicações de notícias.
+ */
 public class NewsServer {
 
     private static NewsServer instance;

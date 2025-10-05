@@ -6,6 +6,10 @@ import main.java.br.com.avaliacao.questao2.pagamentos.factories.CardPaymentFacto
 import main.java.br.com.avaliacao.questao2.pagamentos.factories.PaymentAbstractFactory;
 import main.java.br.com.avaliacao.questao2.pagamentos.factories.PixPaymentFactory;
 
+/**
+ * Classe principal da Questão 2.
+ * Demonstra o uso do padrão Abstract Factory + Singleton.
+ */
 public class AppQuestao2 {
 
     public static void main(String[] args) {

@@ -5,6 +5,10 @@ import main.java.br.com.avaliacao.questao3.noticias.Noticia;
 import main.java.br.com.avaliacao.questao3.noticias.Topico;
 import main.java.br.com.avaliacao.questao3.servidor.NewsServer;
 
+/**
+ * Classe principal da Questão 3.
+ * Demonstra o uso do padrão Observer + Singleton.
+ */
 public class AppQuestao3 {
 
     public static void main(String[] args) {

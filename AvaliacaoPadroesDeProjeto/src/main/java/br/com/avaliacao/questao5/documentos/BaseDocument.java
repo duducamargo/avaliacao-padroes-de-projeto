@@ -1,5 +1,9 @@
 package main.java.br.com.avaliacao.questao5.documentos;
 
+/**
+ * Classe base para documentos que implementa a lógica de clonagem e
+ * personalização.
+ */
 public abstract class BaseDocument implements DocumentPrototype {
 
     protected String titulo;

@@ -5,6 +5,10 @@ import main.java.br.com.avaliacao.questao2.pagamentos.processors.PaymentProcesso
 import main.java.br.com.avaliacao.questao2.pagamentos.receipts.PaymentReceipt;
 import main.java.br.com.avaliacao.questao2.pagamentos.validators.PaymentValidator;
 
+/**
+ * Singleton que centraliza o fluxo de pagamento.
+ * Usa a Abstract Factory para criar os objetos corretos dinamicamente.
+ */
 public class PaymentGateway {
 
     private static PaymentGateway instance;

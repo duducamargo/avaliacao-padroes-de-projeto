@@ -1,5 +1,9 @@
 package main.java.br.com.avaliacao.questao1.transporte;
 
+/**
+ * Implementação concreta do transporte aéreo.
+ * Regra: tarifa baseada principalmente no peso.
+ */
 public class TransporteAereo extends Transporte {
 
     public TransporteAereo() {

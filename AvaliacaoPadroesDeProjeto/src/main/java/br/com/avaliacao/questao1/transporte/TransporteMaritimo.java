@@ -1,5 +1,9 @@
 package main.java.br.com.avaliacao.questao1.transporte;
 
+/**
+ * Implementação concreta do transporte marítimo.
+ * Regra: considera taxa portuária, distância e peso.
+ */
 public class TransporteMaritimo extends Transporte {
 
     public TransporteMaritimo() {

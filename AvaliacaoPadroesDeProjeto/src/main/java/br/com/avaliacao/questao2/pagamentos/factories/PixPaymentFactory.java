@@ -4,6 +4,9 @@ import main.java.br.com.avaliacao.questao2.pagamentos.processors.*;
 import main.java.br.com.avaliacao.questao2.pagamentos.validators.*;
 import main.java.br.com.avaliacao.questao2.pagamentos.receipts.*;
 
+/**
+ * Fábrica concreta para pagamentos via PIX.
+ */
 public class PixPaymentFactory implements PaymentAbstractFactory {
     @Override
     public PaymentProcessor createProcessor() {

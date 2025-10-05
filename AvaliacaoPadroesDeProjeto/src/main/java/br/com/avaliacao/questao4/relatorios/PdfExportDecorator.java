@@ -1,5 +1,8 @@
 package main.java.br.com.avaliacao.questao4.relatorios;
 
+/**
+ * Adiciona a funcionalidade de exportação em PDF ao relatório.
+ */
 public class PdfExportDecorator extends ReportDecorator {
 
     public PdfExportDecorator(Report decoratedReport) {

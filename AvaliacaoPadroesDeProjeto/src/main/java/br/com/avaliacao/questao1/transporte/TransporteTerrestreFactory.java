@@ -1,5 +1,8 @@
 package main.java.br.com.avaliacao.questao1.transporte;
 
+/**
+ * Fábrica concreta responsável por criar transporte terrestre.
+ */
 public class TransporteTerrestreFactory extends TransporteFactory {
 
     @Override

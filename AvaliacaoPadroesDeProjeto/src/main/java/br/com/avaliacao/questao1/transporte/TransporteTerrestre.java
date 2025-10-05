@@ -1,5 +1,9 @@
 package main.java.br.com.avaliacao.questao1.transporte;
 
+/**
+ * Implementação concreta do transporte terrestre.
+ * Regra: tarifa baseada principalmente na distância.
+ */
 public class TransporteTerrestre extends Transporte {
 
     public TransporteTerrestre() {

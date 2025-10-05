@@ -3,7 +3,10 @@ package main.java.br.com.avaliacao.questao1;
 import main.java.br.com.avaliacao.questao1.servico.CalculadoraTarifas;
 import main.java.br.com.avaliacao.questao1.transporte.*;
 
-
+/**
+ * Classe principal de execução da Questão 1.
+ * Demonstra o uso do padrão Factory Method + Singleton.
+ */
 public class AppQuestao1 {
 
     public static void main(String[] args) {

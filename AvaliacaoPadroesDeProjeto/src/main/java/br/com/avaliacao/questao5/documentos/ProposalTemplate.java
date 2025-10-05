@@ -1,5 +1,8 @@
 package main.java.br.com.avaliacao.questao5.documentos;
 
+/**
+ * Modelo de proposta comercial.
+ */
 public class ProposalTemplate extends BaseDocument {
 
     public ProposalTemplate() {

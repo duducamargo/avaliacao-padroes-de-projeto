@@ -3,6 +3,9 @@ package main.java.br.com.avaliacao.questao4.relatorios;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * Adiciona estatísticas de faturamento ao relatório.
+ */
 public class BillingStatsDecorator extends ReportDecorator {
 
     public BillingStatsDecorator(Report decoratedReport) {

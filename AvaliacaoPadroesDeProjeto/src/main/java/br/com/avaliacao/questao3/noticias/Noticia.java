@@ -1,5 +1,8 @@
 package main.java.br.com.avaliacao.questao3.noticias;
 
+/**
+ * Classe simples que representa uma notícia publicada.
+ */
 public class Noticia {
     private final String titulo;
     private final String conteudo;

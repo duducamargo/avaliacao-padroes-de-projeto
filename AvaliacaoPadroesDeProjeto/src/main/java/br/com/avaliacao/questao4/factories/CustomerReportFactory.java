@@ -5,6 +5,9 @@ import java.util.List;
 import main.java.br.com.avaliacao.questao4.relatorios.BasicReport;
 import main.java.br.com.avaliacao.questao4.relatorios.Report;
 
+/**
+ * Fábrica concreta para criar relatórios de clientes.
+ */
 public class CustomerReportFactory extends ReportFactory {
 
     @Override

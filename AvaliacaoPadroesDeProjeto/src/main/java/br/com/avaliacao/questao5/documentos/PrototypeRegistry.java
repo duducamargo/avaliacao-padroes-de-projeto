@@ -3,6 +3,9 @@ package main.java.br.com.avaliacao.questao5.documentos;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Registro Singleton que armazena e fornece clones dos modelos de documentos.
+ */
 public class PrototypeRegistry {
 
     private static PrototypeRegistry instance;

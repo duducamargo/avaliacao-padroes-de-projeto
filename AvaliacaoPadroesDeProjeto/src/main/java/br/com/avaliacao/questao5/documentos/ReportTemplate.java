@@ -1,5 +1,8 @@
 package main.java.br.com.avaliacao.questao5.documentos;
 
+/**
+ * Modelo de relatório técnico.
+ */
 public class ReportTemplate extends BaseDocument {
 
     public ReportTemplate() {

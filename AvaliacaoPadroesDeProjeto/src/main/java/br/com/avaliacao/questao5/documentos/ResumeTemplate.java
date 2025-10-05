@@ -1,5 +1,8 @@
 package main.java.br.com.avaliacao.questao5.documentos;
 
+/**
+ * Modelo de currículo profissional.
+ */
 public class ResumeTemplate extends BaseDocument {
 
     public ResumeTemplate() {
