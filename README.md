@@ -143,6 +143,7 @@ Cada questão exemplifica boas práticas de **arquitetura orientada a objetos** 
 
 **Nome:** *Eduardo Farias Camargo*  
 **Disciplina:** Padrões de Projeto
+<br/>
 **Data de entrega:** 05/10/2025  
 
 ---
