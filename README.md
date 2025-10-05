@@ -36,52 +36,81 @@ Cada pasta (`questaoX`) contém:
 ## 🧩 Questão 1 — Sistema de Cálculo de Tarifas
 
 **Padrões aplicados:**
+
 - 🏭 Factory Method
 - 🔁 Singleton
+
+**Justificativa:**  
+O padrão *Factory Method* foi escolhido porque permite criar diferentes tipos de transporte sem utilizar condicionais no código principal, facilitando a manutenção e a extensão futura (ex: inclusão de transporte ferroviário).  
+O *Singleton* foi utilizado para centralizar o cálculo de tarifas em uma única instância global (`CalculadoraTarifas`), garantindo consistência e evitando múltiplos pontos de cálculo espalhados no sistema.
 
 **Classe principal:**  
 `br.com.avaliacao.questao1.AppQuestao1`
 
 ---
 
+
 ## 💳 Questão 2 — Plataforma de Pagamentos
 
 **Padrões aplicados:**
+
 - 🏗️ Abstract Factory
 - 🔁 Singleton
+
+**Justificativa:**  
+O padrão *Abstract Factory* foi escolhido porque permite a criação de famílias de objetos relacionados (processador, validador e recibo) de maneira coesa e independente do meio de pagamento.  
+O *Singleton* foi implementado no `PaymentGateway` para garantir um único ponto central de processamento e controle de transações, evitando inconsistências e duplicações de lógica.
 
 **Classe principal:**  
 `br.com.avaliacao.questao2.AppQuestao2`
 
 ---
 
+
 ## 📰 Questão 3 — Sistema de Assinaturas de Notícias
 
 **Padrões aplicados:**
+
 - 👀 Observer
 - 🔁 Singleton
+
+**Justificativa:**  
+O *Observer* foi aplicado para permitir que os leitores (observers) se inscrevam em tópicos de interesse e recebam automaticamente notificações quando novas notícias forem publicadas.  
+O *Singleton* foi usado no `NewsServer` para garantir um único ponto de controle de publicação, centralizando a distribuição de notícias para todos os tópicos e leitores.
 
 **Classe principal:**  
 `br.com.avaliacao.questao3.AppQuestao3`
 
 ---
 
+
 ## 📊 Questão 4 — Relatórios Extensíveis de Vendas
 
 **Padrões aplicados:**
+
 - 🎨 Decorator
 - 🏭 Factory Method
+
+**Justificativa:**  
+O padrão *Decorator* foi escolhido para adicionar funcionalidades opcionais (estatísticas, gráficos, exportação em PDF) ao relatório básico sem modificar sua estrutura original, respeitando o princípio *Open/Closed*.  
+O *Factory Method* foi usado para criar diferentes tipos de relatórios básicos antes da aplicação dos decoradores, permitindo a criação dinâmica e extensível de novos relatórios no futuro.
 
 **Classe principal:**  
 `br.com.avaliacao.questao4.AppQuestao4`
 
 ---
 
+
 ## 🧾 Questão 5 — Modelos de Documentos Personalizáveis
 
 **Padrões aplicados:**
+
 - 🧬 Prototype
 - 🔁 Singleton
+
+**Justificativa:**  
+O *Prototype* foi implementado para possibilitar a criação rápida de novos documentos personalizados (currículos, propostas, relatórios) a partir de modelos existentes, evitando duplicação de código e simplificando o processo de customização.  
+O *Singleton* foi aplicado no `PrototypeRegistry` para manter um registro único de protótipos disponíveis, garantindo consistência no gerenciamento e acesso centralizado aos modelos.
 
 **Classe principal:**  
 `br.com.avaliacao.questao5.AppQuestao5`
